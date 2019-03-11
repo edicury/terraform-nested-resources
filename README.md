@@ -8,7 +8,7 @@ cd path/init
 npm i
 node main.js --path path/subpath/api/{proxy}+ // Put as many resources as you wish.
 ```
-
+Now you can edit your main.tf file created at the root of the repo.
 
 # Apply with Terraform
 ```sh
