@@ -20,9 +20,13 @@ echo yes | terraform apply
 This will create a API, and nested resources with this configuration:
 
 |- /
+<br/>
 |-- /path
+<br/>
 |--- /subpath
+<br/>
 |---- /api
+<br/>
 |----- /{proxy}+ // Proxy integration.
 
 
